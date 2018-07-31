@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Day 11</title>
+    <title>Restaurant</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -15,7 +15,13 @@
     <h1>Table Finder</h1>
     <h3>Pick your table now</h3>
     <section class="centerBox">
-        <form class="hideForm">
+            <section class="guest-details">
+                <h5>Guest Details</h5>
+                    <p class="guest-name"></p>
+                    <p class="guest-phone"></p>
+                    <p class="guest-size"></p>
+                </section>
+        <form class="hideForm">            
             <button type="button" class="close"><i class="material-icons">
                     close
                     </i></button>
@@ -27,7 +33,7 @@
             <button type="button" class="save">Save</button>
         </form>
         <section class="seatMap">
-            <section class="table available" id="">1</section>
+            <section class="table available" id="1">1</section>
             <section class="table available" id="2">2</section>
             <section class="table available" id="3">3</section>
             <section class="table available" id="4">4</section>
